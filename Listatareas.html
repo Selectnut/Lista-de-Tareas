@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="stylelist.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <input type="text" id="taskInput" placeholder="Add new task">
+        <ul id="taskList"></ul>
+        <div class="filters">
+            <button onclick="filterTasks('all')">Todas</button>
+            <button onclick="filterTasks('active')">Activas</button>
+            <button onclick="filterTasks('completed')">Completadas</button>
+        </div>
+    </div>
+    <script src="lista.js"></script>
+</body>
+</html>
